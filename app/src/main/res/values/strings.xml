@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Pokebi</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="biodata">Data Pokemon</string>
+    <string name="tinggi">Tinggi</string>
+    <string name="berat">Berat</string>
+    <string name="kelemahan">Kelemahan</string>
+    <string name="kategori">Kategori</string>
+    <string name="tipe">Tipe</string>
+    <string name="kemampuan">Kemampuan</string>
+    <string name="share">Share</string>
+    <string-array name="data_name">
+        <item>Pikachu</item>
+        <item>Sandshrew</item>
+        <item>Raticate</item>
+        <item>Mega Blastoise</item>
+        <item>Mega Alakazam</item>
+        <item>Machop</item>
+        <item>Tentacool</item>
+        <item>Geodude</item>
+        <item>Golem</item>
+        <item>Ponyta</item>
+        <item>Slowpoke</item>
+        <item>Nidoran</item>
+        <item>Clefairy</item>
+        <item>Paras</item>
+        <item>Diglett</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>\u00A0\u00A0\u00A0\u00A0\u00A0Pikachu adalah Pokémon bertipe Listrik yang sangat populer dan dikenal sebagai maskot utama dari franchise Pokémon. Dengan tubuh berwarna kuning cerah dan ukuran yang relatif kecil, Pikachu memiliki karakteristik fisik yang mudah dikenali, seperti telinga panjang berujung hitam, pipi merah yang dapat menyimpan listrik, serta ekor yang berbentuk petir, menandakan kekuatannya sebagai Pokémon bertipe Listrik. Kemampuan utamanya adalah menyerap dan menyimpan energi listrik di pipinya, yang kemudian digunakan untuk melancarkan serangan dahsyat seperti Thunderbolt atau Thunder, yang terkenal karena kekuatan serangannya. Pikachu juga mampu menggunakan gerakan lain, seperti Quick Attack dan Iron Tail, yang membuatnya lincah dan berbahaya di medan pertempuran.</item>
+        <item>\u00A0\u00A0\u00A0\u00A0\u00A0Sandshrew adalah Pokémon bertipe Ground yang memiliki tubuh menyerupai armadillo dengan kulit keras berwarna kuning kecokelatan, membuatnya tahan terhadap serangan dan lingkungan yang keras. Kulitnya yang tebal dan kaku tidak hanya berfungsi sebagai pelindung, tetapi juga memungkinkan Sandshrew untuk menggulung tubuhnya menjadi bola, seperti armadillo sungguhan, sehingga dapat melindungi diri dari serangan musuh. Sandshrew dikenal sebagai ahli penggali yang sangat cepat, menggunakan cakarnya yang tajam untuk menggali lubang di tanah atau pasir. Kemampuannya ini membuatnya sangat mahir dalam bersembunyi dari bahaya, bersembunyi di bawah tanah untuk menghindari predator atau bertahan dari cuaca panas ekstrem di habitat aslinya, seperti gurun. Ketika berada di bawah tanah, ia mampu mengatur suhu tubuhnya untuk tetap dingin dan terlindungi dari panas yang menyengat.</item>
+        <item>\u00A0\u00A0\u00A0\u00A0\u00A0Raticate adalah evolusi dari Rattata dan merupakan Pokémon bertipe Normal dengan tubuh yang lebih besar, lebih kuat, dan jauh lebih tangguh dibandingkan bentuk dasarnya. Raticate memiliki ciri khas berupa gigi depan yang besar dan sangat kuat, yang terus tumbuh sepanjang hidupnya. Gigi depannya ini sangat tajam dan digunakan untuk menggigit, merobek, dan menghancurkan objek keras, seperti kayu, batu, dan bahkan logam tipis. Sifatnya ini membuatnya menjadi penggali dan penghancur alami, memungkinkannya bertahan hidup di berbagai lingkungan dengan menggigit dan menggerogoti apa saja yang menghalangi jalannya. Tubuh Raticate yang besar dilengkapi dengan kaki belakang yang kuat dan cakar tajam, membuatnya sangat gesit dan lincah, meskipun penampilannya yang agak kekar. Ia dapat bergerak dengan cepat dan lincah, bahkan di tempat-tempat sempit dan sulit, memanfaatkan kecepatannya untuk menyerang musuh atau menghindar dari serangan balik. Dalam pertarungan, Raticate dikenal agresif dan tidak kenal takut, sering kali menyerang tanpa ragu-ragu dengan serangan fisik yang kuat.</item>
+        <item>\u00A0\u00A0\u00A0\u00A0\u00A0Mega Blastoise adalah bentuk mega evolusi dari Blastoise, yang mengalami peningkatan besar dalam kekuatan dan kemampuan bertarung. Dalam bentuk Mega, tubuhnya menjadi lebih besar dan kokoh, dengan modifikasi yang sangat mencolok berupa meriam besar yang terpasang di punggungnya serta dua meriam tambahan yang lebih kecil di lengannya. Meriam utama di punggung Mega Blastoise memiliki daya tembak yang luar biasa kuat, mampu menembakkan semburan air bertekanan tinggi dengan akurasi dan kekuatan yang jauh lebih besar dibandingkan Blastoise biasa. Ini menjadikan Mega Blastoise sebagai salah satu Pokémon bertipe Water yang paling tangguh dalam pertempuran. Serangan andalannya, Hydro Pump, menjadi jauh lebih mematikan dalam bentuk Mega karena disalurkan melalui meriam raksasa yang meningkatkan daya hancurnya. Semburan air yang ditembakkan Mega Blastoise mampu menghancurkan hampir apa saja yang berada di jalurnya, baik itu batu besar maupun musuh yang tangguh. Selain Hydro Pump, Mega Blastoise juga dapat menggunakan serangan seperti Water Pulse, Ice Beam, dan Dark Pulse, memberikan variasi serangan yang mampu menghadapi berbagai jenis Pokémon di medan pertempuran.</item>
+        <item>\u00A0\u00A0\u00A0\u00A0\u00A0Mega Alakazam adalah bentuk evolusi mega dari Alakazam, yang dikenal karena kekuatan psikisnya yang luar biasa. Dalam bentuk Mega, Alakazam mengalami peningkatan signifikan dalam kemampuan mental dan fisiknya, menjadikannya salah satu Pokémon bertipe Psychic yang paling kuat dan ditakuti. Ciri khas Mega Alakazam yang mencolok adalah lima sendok yang melayang di sekitarnya, yang merupakan simbol dari kekuatan telekinesis dan kendali pikiran yang ia miliki. Masing-masing sendok ini melambangkan kemampuannya untuk memanipulasi objek dan energi dengan presisi yang luar biasa. Mega Alakazam memiliki kemampuan psikis yang jauh melampaui bentuk dasarnya. Otaknya telah berkembang hingga mencapai kapasitas yang hampir tak terbatas, membuatnya mampu membaca pikiran, memprediksi gerakan lawan, dan bahkan memperkirakan masa depan. Ia mampu menyerap informasi dengan sangat cepat dan membuat keputusan strategis dalam hitungan detik, menjadikannya lawan yang sangat sulit dihadapi dalam pertempuran. Kecepatan berpikir dan refleksnya yang sangat cepat tercermin dalam status kecepatan Mega Alakazam, menjadikannya salah satu Pokémon tercepat dalam kategori tipe Psychic.</item>
+        <item>\u00A0\u00A0\u00A0\u00A0\u00A0Machop adalah Pokémon bertipe Fighting yang memiliki tubuh kecil namun sangat kekar dan penuh otot. Meskipun berukuran kecil dibandingkan evolusinya, Machop memiliki kekuatan fisik yang luar biasa, membuatnya mampu mengangkat dan membawa beban yang jauh lebih berat dari tubuhnya sendiri. Bahkan, Machop dikenal mampu mengangkat benda-benda seperti batu besar dan batang pohon tanpa kesulitan, menjadikannya simbol kekuatan dan ketahanan. Kekuatan ini menjadikannya sangat dihormati di kalangan pelatih tipe Fighting, karena ia adalah Pokémon yang sempurna untuk pelatihan kekuatan fisik dan pertempuran jarak dekat. Salah satu ciri khas Machop adalah kegemarannya melatih diri. Setiap hari, Machop akan meluangkan waktu untuk berlatih, baik dengan melakukan latihan fisik seperti mengangkat beban, bertarung dengan lawan yang lebih kuat, atau menguji batas kekuatannya sendiri. Tujuan utamanya adalah untuk terus meningkatkan kemampuannya, mempersiapkan tubuhnya untuk evolusi yang lebih kuat. Dengan tubuh yang terus-menerus terlatih, Machop tidak hanya bertambah kuat, tetapi juga semakin cepat dan lincah, memungkinkan untuk menghindari serangan musuh sambil memberikan pukulan kuat yang mematikan.</item>
+        <item>\u00A0\u00A0\u00A0\u00A0\u00A0Tentacool adalah Pokémon bertipe Water/Poison yang memiliki penampilan unik dan menarik, menyerupai ubur-ubur. Tubuhnya yang transparan memungkinkan Tentacool untuk menyatu dengan lingkungan sekitarnya, membuatnya sulit terlihat oleh predator maupun lawan. Warna tubuhnya yang biru muda dan ungu memberikan kesan anggun saat meluncur di dalam air, sementara tentakel panjang dan fleksibelnya menjuntai di bawahnya, memberikan keanggunan saat bergerak. Tentacool memiliki tentakel yang panjang dan berjumlah banyak, yang berfungsi sebagai alat untuk menyerang dan bertahan. Tentakel ini memiliki kemampuan menyengat, mengandung racun yang dapat melumpuhkan musuh yang terkena. Ketika Tentacool merasa terancam, ia dapat dengan cepat menyerang dengan mengarahkan tentakelnya ke arah lawan. Racun yang terdapat pada tentakelnya sangat efektif, dapat menyebabkan rasa sakit yang luar biasa dan disorientasi bagi Pokémon lain, sehingga memberikan Tentacool keuntungan dalam pertarungan.</item>
+        <item>\u00A0\u00A0\u00A0\u00A0\u00A0Geodude adalah Pokémon bertipe Rock/Ground yang memiliki penampilan khas berupa tubuh berbentuk batu yang kekar dan keras. Ciri fisiknya yang menonjol adalah bentuk tubuh yang menyerupai bola besar yang dikelilingi oleh dua lengan pendek. Dengan tekstur yang mirip batu, Geodude dapat dengan mudah menyatu dengan lingkungan sekitarnya, menjadikannya sulit terlihat saat bersembunyi di antara bebatuan di daerah pegunungan dan gua. Salah satu kemampuan unik Geodude adalah kemampuannya untuk mengapung di udara meskipun tubuhnya tampak berat. Ia menggunakan kekuatan magnetis di tubuhnya untuk dapat melayang beberapa inci di atas tanah, memungkinkannya untuk menghindari serangan dari bawah dan bergerak dengan lincah meskipun berada di medan yang sulit. Keunikan ini tidak hanya memberinya keuntungan dalam pertarungan, tetapi juga memungkinkan Geodude untuk menjelajahi medan berbatu yang tidak dapat dijangkau oleh Pokémon lainnya.</item>
+        <item>\u00A0\u00A0\u00A0\u00A0\u00A0Golem adalah evolusi terakhir dari Geodude, dan merupakan Pokémon bertipe Rock/Ground yang memiliki tubuh besar, kekar, dan keras seperti batu. Dengan ukuran yang jauh lebih besar dibandingkan dengan pendahulunya, Golem berdiri kokoh dengan struktur tubuh yang menyerupai gunung, mencerminkan kekuatan dan ketahanan yang luar biasa. Cangkangnya terbuat dari material yang sangat keras, memberikan perlindungan maksimal dari serangan fisik dan elemen lingkungan yang berbahaya. Golem adalah simbol dari ketangguhan dan kekuatan alam. Salah satu kemampuan unik Golem adalah kemampuannya untuk menggulung tubuhnya menjadi bola besar dan meluncur dengan kecepatan tinggi. Ketika dalam bentuk menggulung, Golem mampu menabrak musuh dengan kekuatan yang menghancurkan, menjadikannya salah satu serangan terkuat yang dimilikinya. Serangan seperti Rollout dan Magnitude dapat memberikan kerusakan besar dan sering kali dapat menjatuhkan lawan yang tidak siap menghadapi serangan mendadak ini. Selain itu, Golem juga mampu menggunakan teknik bertahan dan menyerang lainnya, seperti Earthquake dan Stone Edge, yang memperkuat kemampuannya dalam pertempuran jarak dekat dan jauh.</item>
+        <item>\u00A0\u00A0\u00A0\u00A0\u00A0Ponyta adalah Pokémon bertipe Fire yang memiliki penampilan menawan mirip seekor kuda. Dengan tubuh yang ramping dan berotot, Ponyta dikenal karena surai apinya yang berkobar, menciptakan pemandangan yang spektakuler saat ia bergerak. Api yang membara di surainya tidak hanya menambah daya tarik visualnya, tetapi juga merupakan bagian dari identitasnya sebagai Pokémon bertipe Fire. Setiap langkah yang diambil Ponyta dipenuhi dengan semangat dan kecepatan, menjadikannya salah satu Pokémon tercepat di antara semua jenis. Kecepatan Ponyta luar biasa, dan ia dapat berlari dengan kecepatan yang memukau, mampu melompati rintangan seperti gedung tinggi dengan mudah berkat kekuatan kakinya yang kuat. Kemampuan melompatnya sangat mengesankan, memungkinkan Ponyta untuk mencapai ketinggian yang luar biasa saat berlari. Ia sering terlihat berlari bebas di padang rumput dan hutan, di mana ia bisa menunjukkan kemampuan larinya yang luar biasa. Dengan keberanian dan energi yang melimpah, Ponyta adalah simbol kebebasan dan semangat.</item>
+        <item>\u00A0\u00A0\u00A0\u00A0\u00A0Slowpoke adalah Pokémon bertipe Water/Psychic yang dikenal luas karena sifatnya yang lambat, baik dalam gerakan maupun berpikir. Dengan tubuh yang gemuk dan berwarna pink, Slowpoke memiliki wajah yang tampak santai dan selalu menunjukkan ekspresi tenang, seolah-olah ia tidak terburu-buru dalam hidupnya. Ia sering terlihat berbaring atau duduk di tepi air, menikmati suasana sekitar dan meluangkan waktu untuk beristirahat. Slowpoke sangat menikmati momen-momen tenang ini, yang mencerminkan kepribadiannya yang santai dan mudah beradaptasi. Salah satu ciri khas Slowpoke adalah ekornya yang panjang dan fleksibel, yang digunakannya untuk menangkap ikan dan makanan lainnya. Dengan sabar, Slowpoke akan menunggu ikan mendekat sebelum dengan cepat mengangkat ekornya dan menjebak mangsa. Teknik berburu yang tidak terburu-buru ini mencerminkan sifatnya yang tenang dan fokus, meskipun mungkin terlihat lambat bagi Pokémon lain. Keterampilan berburu ini sangat berguna, karena Slowpoke tidak perlu berlari atau bergerak cepat untuk mendapatkan makanannya.</item>
+        <item>\u00A0\u00A0\u00A0\u00A0\u00A0Nidoran adalah Pokémon bertipe Poison yang terkenal dengan dua bentuk berbeda untuk jantan dan betina, masing-masing dengan ciri khasnya sendiri. Nidoran jantan memiliki tanduk kecil yang tajam di bagian atas kepalanya, sementara Nidoran betina memiliki telinga yang lebih besar dan bulat. Meskipun keduanya memiliki penampilan yang imut, keduanya sangat berbeda dalam hal kekuatan dan perilaku. Nidoran jantan biasanya berwarna biru, sedangkan Nidoran betina berwarna ungu. Keduanya memiliki kulit yang halus dengan bintik-bintik kecil yang memberikan mereka penampilan yang menarik. Nidoran sering terlihat bergerak di sekitar padang rumput, hutan, atau area berbatu, di mana ia dapat bersembunyi dengan mudah dari predator dan mengintai mangsa. Mereka adalah Pokémon yang lincah dan cepat, mampu berlari dengan gesit saat terancam.</item>
+        <item>\u00A0\u00A0\u00A0\u00A0\u00A0Clefairy adalah Pokémon bertipe Fairy yang dikenal dengan penampilan lucunya dan ukuran kecilnya. Dengan tubuh bulat yang berwarna pink dan telinga besar yang menggemaskan, Clefairy memiliki wajah yang selalu tampak ceria dan ramah. Ia sering kali dianggap sebagai simbol keceriaan dan keajaiban di dunia Pokémon. Salah satu keunikan Clefairy adalah kecintaannya pada malam hari. Ketika bulan purnama bersinar cerah di langit, Clefairy sering terlihat menari dengan gembira di bawah sinar bulan, menampilkan gerakan anggun yang mempesona. Dalam tradisi Pokémon, Clefairy diyakini memiliki ikatan kuat dengan bulan dan sering kali dikaitkan dengan fenomena malam, membuatnya menjadi Pokémon yang istimewa bagi para pelatih yang mengagumi keindahan alam. Clefairy juga memiliki kemampuan psikis yang luar biasa, yang memungkinkan ia untuk menggunakan serangan seperti Moonblast, serangan kuat yang memanfaatkan energi bulan untuk menyerang musuh. Selain Moonblast, Clefairy dapat mempelajari berbagai teknik lainnya, seperti Pound dan Sing, yang dapat menimbulkan efek tidur pada lawan. Kombinasi serangan yang unik ini menjadikannya Pokémon yang beragam dalam strategi bertarung, mampu menyesuaikan diri dengan berbagai situasi.</item>
+        <item>\u00A0\u00A0\u00A0\u00A0\u00A0Paras adalah Pokémon bertipe Bug/Grass yang memiliki penampilan unik dan menarik, dengan tubuh kecil berwarna kuning kemerahan yang ditutupi oleh dua jamur besar yang tumbuh di punggungnya. Jamur ini adalah ciri khas dari Paras dan memiliki peran penting dalam kehidupan Pokémon ini. Saat Paras berkembang, jamur tersebut secara bertahap mengambil alih tubuhnya, memberikan kekuatan tambahan sekaligus mengubah sifatnya. Proses ini memberikan Paras kemampuan untuk menggunakan serangan berbasis racun, menjadikannya Pokémon yang menarik dan berbahaya dalam pertarungan. Meskipun jamur yang tumbuh di punggungnya terlihat mencolok, jamur tersebut juga menunjukkan bahwa Paras memiliki koneksi yang kuat dengan alam dan lingkungan sekitarnya. Jamur ini dapat menghasilkan spora beracun yang dapat melumpuhkan musuh, membuat Paras menjadi lebih efektif dalam pertarungan. Serangan seperti Spore dan Sleep Powder memungkinkan Paras untuk menaklukkan lawan dengan memanfaatkan kemampuannya dalam memproduksi racun dan spora. Kombinasi serangan berbasis Bug dan Grass menjadikan Paras serbaguna dalam berbagai situasi pertempuran, meskipun ia sering kali mengandalkan kecerdasan dan strategi untuk mengatasi lawan yang lebih kuat.</item>
+        <item>\u00A0\u00A0\u00A0\u00A0\u00A0Diglett adalah Pokémon bertipe Ground yang memiliki penampilan unik, dengan tubuh yang sebagian besar tersembunyi di bawah tanah. Hanya kepala kecil berwarna cokelat yang terlihat di permukaan, membuatnya terlihat seperti gundukan tanah. Dengan matanya yang besar dan wajah yang selalu tampak ceria, Diglett memiliki daya tarik tersendiri meskipun penampilannya yang sederhana. Kecil dan ramping, Diglett memiliki kemampuan luar biasa untuk menggali dan bergerak dengan cepat di bawah permukaan, menjadikannya salah satu Pokémon yang paling gesit dalam hal pergerakan bawah tanah. Diglett sangat terkenal karena kemampuannya menggali dengan kecepatan yang luar biasa. Ia dapat menciptakan terowongan yang panjang dalam waktu singkat, memungkinkan dirinya untuk bergerak dari satu tempat ke tempat lain tanpa terdeteksi. Keterampilan menggali ini tidak hanya berguna untuk menghindari predator, tetapi juga membantu Diglett dalam mencari makanan dan menjelajahi habitatnya. Ia biasanya mengkonsumsi akar tanaman dan mineral yang ditemukan di bawah tanah, menjadikannya makhluk yang beradaptasi dengan baik di lingkungan yang keras.</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>https://id.portal-pokemon.com/play/resources/pokedex/img/pm/2b3f6ff00db7a1efae21d85cfb8995eaff2da8d8.png</item>
+        <item>https://id.portal-pokemon.com/play/resources/pokedex/img/pm/f5fcf7a292a180320138ace7235f8a2c16f6594a.png</item>
+        <item>https://id.portal-pokemon.com/play/resources/pokedex/img/pm/00186af714a048895ba8116e71b08671c3cfb8f5.png</item>
+        <item>https://id.portal-pokemon.com/play/resources/pokedex/img/pm/6ef57b70dc74663cc1c203d7006e69cbad6bb15f.png</item>
+        <item>https://id.portal-pokemon.com/play/resources/pokedex/img/pm/0074c7d90ce7d2a6926d28fe777d2bcb0b4ccb0b.png</item>
+        <item>https://id.portal-pokemon.com/play/resources/pokedex/img/pm/3da5f9c26f39884f5f44a861e6965fdc1722241b.png</item>
+        <item>https://id.portal-pokemon.com/play/resources/pokedex/img/pm/4b483c95c2124018519380eaa06cc657c5b76a64.png</item>
+        <item>https://id.portal-pokemon.com/play/resources/pokedex/img/pm/02fb8976b07089e975a9911ae2ff1327b5e3340d.png</item>
+        <item>https://id.portal-pokemon.com/play/resources/pokedex/img/pm/dacab2be1777c14ed7da12824dd85c2cdbd2ebf9.png</item>
+        <item>https://id.portal-pokemon.com/play/resources/pokedex/img/pm/441132f5cdf87b0e46f96952f16c2dfc75911054.png</item>
+        <item>https://id.portal-pokemon.com/play/resources/pokedex/img/pm/14179c8ab9c2003fc5b27a29e91e4cd195283d52.png</item>
+        <item>https://id.portal-pokemon.com/play/resources/pokedex/img/pm/18e9dc86ced1320d6846f2c192c4eb04e517963a.png</item>
+        <item>https://id.portal-pokemon.com/play/resources/pokedex/img/pm/837bcac8efc9329d9e3b9e46e95670a5d493b60a.png</item>
+        <item>https://id.portal-pokemon.com/play/resources/pokedex/img/pm/583fa625d6fda586a5734f5f9e455952aa6af15f.png</item>
+        <item>https://id.portal-pokemon.com/play/resources/pokedex/img/pm/e97c62e4e4b46017be60806d00f4d389d003f115.png</item>
+    </string-array>
+
+    <string-array name="tinggi_item">
+        <item>0.4m</item>
+        <item>0.6m</item>
+        <item>1.6m</item>
+        <item>1.2m</item>
+        <item>0.8m</item>
+        <item>0.9m</item>
+        <item>0.4m</item>
+        <item>1.4m</item>
+        <item>1.0m</item>
+        <item>1.2m</item>
+        <item>0.4m</item>
+        <item>0.6m</item>
+        <item>0.3m</item>
+        <item>0.2m</item>
+        <item>0.7m</item>
+    </string-array>
+
+    <string-array name="tipe_item">
+        <item>Listrik</item>
+        <item>Tanah</item>
+        <item>Air</item>
+        <item>Psychic</item>
+        <item>Petarung</item>
+        <item>Air</item>
+        <item>Bebatuan, Tanah</item>
+        <item>Bebatuan, Tanah</item>
+        <item>Api</item>
+        <item>Air</item>
+        <item>Racun</item>
+        <item>Peri</item>
+        <item>Serangga, Daun</item>
+        <item>Tanah</item>
+        <item>Normal</item>
+    </string-array>
+
+    <string-array name="kategori_item">
+        <item>Pokemon Tikus</item>
+        <item>Pokemon Tikus</item>
+        <item>Pokemon Tempurung</item>
+        <item>Pokemon Supernatural</item>
+        <item>Pokemon Tenaga Super</item>
+        <item>Pokemon Ubur-ubur</item>
+        <item>Pokemon Batu</item>
+        <item>Pokemon Megaton</item>
+        <item>Pokemon Kuda Api</item>
+        <item>Pokemon Lamban</item>
+        <item>Pokemon Jarum Beracun</item>
+        <item>Pokemon Peri</item>
+        <item>Pokemon Jamur</item>
+        <item>Pokemon Tikus Tanah</item>
+        <item>Pokemon Tikus</item>
+    </string-array>
+
+    <string-array name="kelemahan_item">
+        <item>Tanah</item>
+        <item>Air, Daun, Es</item>
+        <item>Daun, Listrik</item>
+        <item>Serangga, Hantu, Kegelapan</item>
+        <item>Terbang, Psychic, Peri</item>
+        <item>Listrik, Tanah, Psychic</item>
+        <item>Air, Daun, Es, Petarung, Tanah, Logam</item>
+        <item>Air, Daun, Es, Petarung, Tanah, Logam</item>
+        <item>Air, Tanah, Bebatuan</item>
+        <item>Daun, Listrik, Serangga, Hantu, Kegelapan</item>
+        <item>Tanah, Psychic</item>
+        <item>Racun, Logam</item>
+        <item>Api, Es, Racun, Terbang, Serangga, Bebatuan</item>
+        <item>Air, Daun, Es</item>
+        <item>Petarung</item>
+    </string-array>
+
+    <string-array name="berat_item">
+        <item>6.0kg</item>
+        <item>12.0kg</item>
+        <item>101.kg</item>
+        <item>48.0kg</item>
+        <item>19.5kg</item>
+        <item>45.5kg</item>
+        <item>20.0kg</item>
+        <item>300.0kg</item>
+        <item>30.0kg</item>
+        <item>36.0kg</item>
+        <item>7.0kg</item>
+        <item>7.5kg</item>
+        <item>5.4kg</item>
+        <item>0.8kg</item>
+        <item>18.5kg</item>
+    </string-array>
+
+    <string-array name="kemampuan_item">
+        <item>Listrik Statis</item>
+        <item>Persembunyian Pasir</item>
+        <item>Peluncur Mega</item>
+        <item>Mengikuti Jejak</item>
+        <item>Nyali, Tanpa Pelindung</item>
+        <item>Badan Tangguh, Cairan Limbah</item>
+        <item>Kepala Batu, Kokoh</item>
+        <item>Kepala Batu, Kokoh</item>
+        <item>Kabur, Api Merembet</item>
+        <item>Tidak Sensitif, Buat Gampang</item>
+        <item>Jarum Racun, Semangat Bersaing</item>
+        <item>Tubuh Mempesona, Pelindung Ajaib</item>
+        <item>Spora, Kulit Kering</item>
+        <item>Persembunyian Pasir, Undur-undur</item>
+        <item>Kabur, Nyali</item>
+    </string-array>
+
+
+</resources>
