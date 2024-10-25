@@ -19,6 +19,7 @@ class DetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        supportActionBar?.title = "Detail Pokemon"
 
         val dataHero = if (Build.VERSION.SDK_INT >= 33) {
             intent.getParcelableExtra(KEY_HERO, Hero::class.java)
