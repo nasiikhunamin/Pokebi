@@ -3,62 +3,54 @@ package com.nasikhunamin.pokebi
 import android.os.Build
 import android.os.Bundle
 import android.content.Intent
-import android.widget.Button
-import android.widget.ImageView
-import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
+import com.nasikhunamin.pokebi.databinding.ActivityDetailBinding
 
 class DetailActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityDetailBinding
 
     companion object {
-        const val `key-hero` = "key_hero"
+        const val KEY_HERO = "key_hero"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detail)
-
-        val tvName: TextView = findViewById(R.id.tv_hero_name)
-        val tvDescription: TextView = findViewById(R.id.tv_hero_description)
-        val imgPhoto: ImageView = findViewById(R.id.img_hero_photo)
-        val tvTinggi: TextView = findViewById(R.id.tv_item_tinggi)
-        val tvBerat: TextView = findViewById(R.id.tv_item_berat)
-        val tvKelemahan: TextView = findViewById(R.id.tv_item_kelemahan)
-        val tvKategori: TextView = findViewById(R.id.tv_item_kategori)
-        val tvTipe: TextView = findViewById(R.id.tv_item_tipe)
-        val tvKemampuan: TextView = findViewById(R.id.tv_item_kemampuan)
-
+        binding = ActivityDetailBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         val dataHero = if (Build.VERSION.SDK_INT >= 33) {
-            intent.getParcelableExtra(`key-hero`, Hero::class.java)
+            intent.getParcelableExtra(KEY_HERO, Hero::class.java)
         } else {
             @Suppress("DEPRECATION")
-            intent.getParcelableExtra<Hero>(`key-hero`)
+            intent.getParcelableExtra<Hero>(KEY_HERO)
         }
 
-        dataHero?.let {
-            tvName.text = it.name
-            tvDescription.text = it.description
+        dataHero?.let { hero ->
+            binding.tvHeroName.text = hero.name
+            binding.tvHeroDescription.text = hero.description
             Glide.with(this)
-                .load(it.photo)
-                .into(imgPhoto)
-            tvTinggi.text = it.tinggi
-            tvBerat.text = it.berat
-            tvKelemahan.text = it.kelemahan
-            tvKategori.text = it.kategori
-            tvTipe.text = it.tipe
-            tvKemampuan.text = it.kemampuan
+                .load(hero.photo)
+                .into(binding.imgHeroPhoto)
+            binding.tvItemTinggi.text = hero.tinggi
+            binding.tvItemBerat.text = hero.berat
+            binding.tvItemKelemahan.text = hero.kelemahan
+            binding.tvItemKategori.text = hero.kategori
+            binding.tvItemTipe.text = hero.tipe
+            binding.tvItemKemampuan.text = hero.kemampuan
+        } ?: run {
+            Toast.makeText(this, "Data pokemon tidak ditemukan", Toast.LENGTH_SHORT).show()
         }
-        val btnShare: Button = findViewById(R.id.action_share)
-        btnShare.setOnClickListener {
+
+        binding.actionShare.setOnClickListener {
             shareHero(dataHero)
         }
     }
 
     private fun shareHero(hero: Hero?) {
         hero?.let {
-            val message = it.name
+            val message = "Hero: ${it.name}\nDescription: ${it.description}"
             val sendIntent = Intent(Intent.ACTION_SEND).apply {
                 type = "text/plain"
                 putExtra(Intent.EXTRA_TEXT, message)

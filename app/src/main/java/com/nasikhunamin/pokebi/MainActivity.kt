@@ -10,10 +10,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
+import com.nasikhunamin.pokebi.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var rvHeroes: RecyclerView
+    private lateinit var binding: ActivityMainBinding
     private val list = ArrayList<Hero>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,9 +23,10 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        rvHeroes = findViewById(R.id.rv_heroes)
-        rvHeroes.setHasFixedSize(true)
-
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        binding.rvHeroes
+        binding.rvHeroes.setHasFixedSize(true)
         list.addAll(getListHeroes())
         showRecyclerList()
     }
@@ -37,10 +38,10 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.action_list -> {
-                rvHeroes.layoutManager = LinearLayoutManager(this)
+                binding.rvHeroes.layoutManager = LinearLayoutManager(this)
             }
             R.id.action_grid -> {
-                rvHeroes.layoutManager = GridLayoutManager(this, 2)
+                binding.rvHeroes.layoutManager = GridLayoutManager(this, 2)
             }
             R.id.action_profile -> {
                 val intent = Intent(this, ProfileActivity::class.java)
@@ -70,8 +71,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showRecyclerList() {
-        rvHeroes.layoutManager = LinearLayoutManager(this)
-        val listHeroAdapter = ListHeroAdapter(list)
-        rvHeroes.adapter = listHeroAdapter
+        binding.rvHeroes.layoutManager = LinearLayoutManager(this)
+        val listPokemonAdapter = ListPokemonAdapter(list)
+        binding.rvHeroes.adapter = listPokemonAdapter
     }
 }
